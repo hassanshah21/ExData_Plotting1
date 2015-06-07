@@ -14,9 +14,9 @@ plot3 <-function(){
   png(filename="C:/Users/Hassanshah/Documents/courseera/4Assignment1/plot2.png")
   plot(dateTime,sub1,sub2,sub3,type="l",xlab = "",ylab = "Energy Submetering")
   legend("topright",lenged = "sub_metering_1", pch = -)
-  legend("topright",lenged = "sub_metering_2", pch = -)
-  legend("topright",lenged = "sub_metering_3", pch = -)
- 
+  legend("topright",lenged = "sub_metering_2")
+  legend("topright",lenged = "sub_metering_3")
+  axis(1, at =1:6 ,labels=letters[1:6])
   dev.off()
   
   
